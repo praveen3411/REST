@@ -1,0 +1,22 @@
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px blueviolet;
+}
+#options{
+    display: flex;
+    gap: 50px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: blue;
+}
+a:active{
+    color: aqua;
+}

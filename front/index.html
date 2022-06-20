@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add-Users</title>
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+<body>
+    <div id="navbar">
+      
+    </div>
+    <div id="users">
+        <h2>Add-User-Details</h2>
+        <input type="text" name="" id="uone" placeholder="Enter Name">
+        <input type="text" name="" id="utwo" placeholder="Enter Age">
+        <input type="text" name="" id="uthree" placeholder="Enter City">
+        <input type="text" name="" id="ufour" placeholder="Enter Study">
+        <input type="url" id="usix" placeholder="enter url">
+        <button id="ufive" onclick="addusers()">Add-Users-Database</button>
+    </div>
+    <div id="don">
+        <input type="text" name="" id="idone" placeholder="giveyour id">
+        <button  onclick="delfun()">Delete</button>
+    </div>
+    <div id="donone">
+        <input type="text" name="" id="idtwo" placeholder="change name">
+        <button onclick="changefun()">Change-name</button>
+    </div>
+    <br>
+    <div id="tak"></div>
+</body>
+</html>
+<script type="module">
+    import {navbarone} from '../components/navbar.js';
+let creone=document.querySelector("#navbar");
+creone.innerHTML=navbarone();
+
+</script>
+<script src="../scripts/main.js"></script>
